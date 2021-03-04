@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Contactez-nous </title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/contact.css">
+</head>
+
+<body class="con">
+    <header>
+        <nav id="menu">
+            <div id="logo">DEVSHOP</div>
+            <label for="drop" class="toggle" id='main-toggle'><span class="nav-icon"></span></label>
+            <input type="checkbox" id="drop">
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <label for="drop-1" class="toggle">Articles +</label>
+                    <a href="../html/articles.html">Articles</a>
+                    <input type="checkbox" id="drop-1">
+                    <ul>
+                        <li><a href="sousarticle/web.html">WEB</a></li>
+                        <li><a href="sousarticle/desktop.html">Desktop </a></li>
+                        <li><a href="sousarticle/database.html">Database</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../html/panier.html">Panier</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="../html/compte.html">Connexion</a></li>
+                <li><a href="../html/inscription.html">Inscription</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="content">
+        <form>
+            <fieldset>
+                <legend> Contactez-nous</legend>
+                <ul>
+                    <li>
+                        <label>Nom et prénom
+              <input type="text" id="prenom" placeholder="Prénom" required />
+              <input type="text" id="nom" placeholder="Nom" required />
+          </li>
+          <li>
+            <label>Email</label>
+                        <input type="email" id="email" required />
+                    </li>
+                    <li>
+                        <label>votre Message</label>
+                        <textarea id="msg" rows="5" cols="20"> </textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="Envoyer" />
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </section>
+    <aside id="recherche">
+
+    </aside>
+    <footer id="footre">
+        <p>©DEVSHOP with Anasse Demnati 2AP, n°groupe2, Oranger, 2020</p>
+    </footer>
+
+</body>
+
+</html>

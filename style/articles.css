@@ -1,0 +1,73 @@
+* {
+    box-sizing: inherit;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 450px;
+}
+
+.article {
+    position: relative;
+    background-color: #f7f7f7;
+    box-shadow: 0px 3px #111111;
+    border: 1.5px solid #0e0e0e;
+    padding: 0px;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 350px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    height: 390px;
+}
+
+.img_art {
+    display: block;
+    margin: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom: 1px solid #ededed;
+    width: 100%;
+}
+
+.nom_art {
+    color: #333;
+    text-align: center;
+}
+
+.desc_art {
+    color: #333;
+    text-align: center;
+}
+
+.prix_art {
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    color: #999;
+    text-align: center;
+    background-color: black;
+    right: 150px;
+}
+
+.input_art {
+    position: absolute;
+    bottom: 5px;
+    right: 180px;
+}
+
+.btn_art {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    border: solid 1px white;
+    background-image: url('../images/cmd.jpg');
+    vertical-align: top;
+    right: 130px;
+    bottom: 5px;
+}

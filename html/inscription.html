@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Inscrivez-vous </title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/inscription.css">
+
+</head>
+
+<body class="in">
+    <header>
+        <nav id="menu">
+            <div id="logo">DEVSHOP</div>
+            <label for="drop" class="toggle" id='main-toggle'><span class="nav-icon"></span></label>
+            <input type="checkbox" id="drop">
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li>
+                    <label for="drop-1" class="toggle">Articles +</label>
+                    <a href="../html/articles.html">Articles</a>
+                    <input type="checkbox" id="drop-1">
+                    <ul>
+                        <li><a href="sousarticle/web.html">WEB</a></li>
+                        <li><a href="sousarticle/desktop.html">Desktop </a></li>
+                        <li><a href="sousarticle/database.html">Database</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../html/panier.html">Panier</a></li>
+                <li><a href="../html/contact.html">Contact</a></li>
+                <li><a href="../html/compte.html">Connexion</a></li>
+                <li><a href="#">Inscription</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <section id="content">
+        <form id="inscription" method="post" action="compte.html">
+            <fieldset>
+                <legend> 1 Nom et Prenom</legend>
+                <label for="nom"> Nom
+					<input type="text" name="nom" id="nom" /></label>
+                <label for="prenom"> Prénom
+					<input type="text" name="prenom" id="prenom" /></label>
+            </fieldset>
+            <fieldset>
+                <legend> 2 Email et téléphone </legend>
+                <label for="email"> Email
+					<input type="email" name="email" id="email" /> </label>
+                <label for="tel"> Tél
+					<input type="tel" name="tel" id="tel" /> </label>
+            </fieldset>
+            <fieldset>
+                <legend> 3 Mot de Passe </legend>
+                <label for="pwd"> Mot de passe
+					<input type="password" name="pwd" id="pwd" /> </label>
+                <label for="pwd"> Confirmez le mot de passe
+					<input type="password" name="pwdcopy" id="pwdcopy" /></label>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Inscription" id="btnIns" />
+            </fieldset>
+        </form>
+    </section>
+    <aside id="recherche">
+
+    </aside>
+    <footer id="footre">
+        <p>©DEVSHOP with Anasse Demnati 2AP, n°groupe2, Oranger, 2020</p>
+    </footer>
+    <script src="../scripts/inscription.js"></script>
+</body>
+
+</html>

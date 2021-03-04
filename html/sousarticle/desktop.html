@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Articles à commander </title>
+    <script src="../../scripts/data.js"></script>
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../style/articles.css">
+    <script src="../../scripts/sousarticle/desktop.js"></script>
+</head>
+
+
+
+<body class="ar" onload="chargerArticles()" onUnLoad=" stockerPanier(monPanier) ">
+    <header>
+        <nav id="menu">
+            <div id="logo">DEVSHOP</div>
+            <label for="drop" class="toggle" id='main-toggle'><span class="nav-icon"></span></label>
+            <input type="checkbox" id="drop">
+            <ul class="menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li>
+                    <label for="drop-1" class="toggle">Articles +</label>
+                    <a href="../../html/articles.html">Articles</a>
+                    <input type="checkbox" id="drop-1">
+                    <ul>
+                        <li><a href="web.html">WEB</a></li>
+                        <li><a href="#">Desktop </a></li>
+                        <li><a href="database.html">Database</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../../html/panier.html">Panier</a></li>
+                <li><a href="../../html/contact.html">Contact</a></li>
+                <li><a href="../../html/compte.html">Connexion</a></li>
+                <li><a href="../../html/inscription.html">Inscription</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <span class="text1">Tous nos articles</span>
+        <span class="text2">Desktop!</span>
+
+
+    </div>
+    <aside id="recherche">
+        <form class="barsh">
+
+            <input type="search" placeholder="Rechercher.." id="search" size="15" />
+            <input type="button" id="ok" value="Ok" />
+        </form>
+    </aside>
+
+    <section id="content">
+
+    </section>
+
+    <footer id="footre">
+        <p>©DEVSHOP with Anasse Demnati 2AP, n°groupe2, Oranger, 2020</p>
+    </footer>
+
+</body>
+
+</html>

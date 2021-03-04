@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #eee
+}
+
+form {
+    height: 350px;
+}
+
+fieldset {
+    background-color: #fff;
+    height: 340px;
+}
+
+legend {
+    background-color: #515f9c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+section {
+    color: black;
+    margin-top: 80px;
+    width: 50%;
+    margin-left: 400px;
+}
+
+input {
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}

@@ -1,0 +1,33 @@
+#panier {
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    position: relative;
+    border-left: 100px;
+    left: 50px;
+    top: 400px;
+    border: 2px solid red;
+    width: 500px;
+}
+
+#panier,
+tr,
+td {
+    border: 1px solid black;
+}
+
+#montant {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 6px;
+    position: absolute;
+    top: 450px;
+    left: 900px;
+    width: 150px;
+}
+
+.imgpoubelle {
+    width: 20px;
+    height: 20px;
+}

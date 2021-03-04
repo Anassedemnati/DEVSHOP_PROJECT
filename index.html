@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <title> DEVSHOP </title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/codepromo.js"></script>
+    <script src="scripts/data.js"></script>
+    <link rel="stylesheet" href="style/articles.css">
+
+</head>
+
+<body class="mb" onload="chargerArticles()" onUnLoad=" stockerPanier(monPanier)">
+    <header>
+        <nav id="menu">
+            <div id="logo">DEVSHOP</div>
+            <label for="drop" class="toggle" id='main-toggle'><span class="nav-icon"></span></label>
+            <input type="checkbox" id="drop">
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <label for="drop-1" class="toggle">Articles +</label>
+                    <a href="html/articles.html">Articles</a>
+                    <input type="checkbox" id="drop-1">
+                    <ul>
+                        <li><a href="html/sousarticle/web.html">WEB</a></li>
+                        <li><a href="html/sousarticle/desktop.html">Desktop </a></li>
+                        <li><a href="html/sousarticle/database.html">Database</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="html/panier.html">Panier</a></li>
+                <li><a href="html/contact.html">Contact</a></li>
+                <li><a href="html/compte.html">Connexion</a></li>
+                <li><a href="html/inscription.html">Inscription</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <span class="text1">Bienvenue a DEVSHOP</span>
+        <span class="text2">promotion!</span>
+
+
+    </div>
+    <section id="content">
+
+
+    </section>
+    <aside id="recherche">
+        <form class="barsh">
+
+            <input type="search" placeholder="Rechercher.." id="search" size="15" />
+            <input type="button" id="ok" value="Ok" />
+        </form>
+    </aside>
+    <footer id="footre">
+        <p>©DEVSHOP with Anasse Demnati 2AP, groupe 2, Oranger, 2020</p>
+    </footer>
+
+</body>
+
+</html>
